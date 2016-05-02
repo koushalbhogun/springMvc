@@ -1,11 +1,11 @@
-package com.share.car.controller;
+package com.share.car.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class CarShare {
+public class CarShareResource {
 	@RequestMapping("/welcome")
 	public ModelAndView helloWorld() {
  
